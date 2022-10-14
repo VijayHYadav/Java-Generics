@@ -1,9 +1,9 @@
-package section1;
+package Examples;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Example {
+public class Example1 {
 	public static void main(String[] args) {
 		
 //		WithOut Generics
