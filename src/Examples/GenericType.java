@@ -28,6 +28,14 @@ public class GenericType {
 		Map<Point, Double> mapPD = new HashMap<Point, Double>();
 		Map<Point, Double> mapPD2 = new HashMap<>();
 		
+		/*
+        Naming Convention
+	        E – Element (used extensively by the Java Collections Framework, for example ArrayList, Set etc.)
+	        K – Key (Used in Map)
+	        N – Number
+	        T – Type
+	        V – Value (Used in Map)
+		 */
 	}
 
 }
