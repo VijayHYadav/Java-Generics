@@ -15,7 +15,19 @@ public class BoundedTypeParameter {
 		);
 	}
 
+	interface A {}
+	interface B {}
+
 	// Generic Bounded Type Parameters
+	// Multiple Bounded Type Notes
+	// In Multiple Bounded Type, Class comes first then interface.
+	// In Multiple Bounded Type, We can only extens single class and any number of interfaces.
+	// Syntax
+	// <T extends Comparable<T> & A & B>
+	// <T extends Number & Comparable<T> & A & B>
+	// <T extends Number & A>
+	// <T extends Number>
+
 	static <T extends Comparable<T>> int countGreaterThen(T[] numbers, T number) {
 		int count = 0;
 		for (T n: numbers) {
