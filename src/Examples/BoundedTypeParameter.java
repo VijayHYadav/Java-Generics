@@ -14,9 +14,9 @@ public class BoundedTypeParameter {
 				countGreaterThen(doubleNumbers, 2.0)
 		);
 	}
-	
+
 	// Generic Bounded Type Parameters
-	static <T extends Comparable> int countGreaterThen(T[] numbers, T number) {
+	static <T extends Comparable<T>> int countGreaterThen(T[] numbers, T number) {
 		int count = 0;
 		for (T n: numbers) {
 			if (n.compareTo(number) > 0) {
