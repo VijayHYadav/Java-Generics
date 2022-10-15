@@ -3,7 +3,7 @@ package Examples;
 import java.util.Arrays;
 import java.util.List;
 
-public class UpperBoundedWildcards {
+public class UnBoundedWildcards {
     public static void main(String[] args) {
         // ? Wildcards
         // Unbounded Wildcards
