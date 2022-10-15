@@ -11,13 +11,13 @@ public class UpperBoundedWildcards {
         List<Integer> list2 = Arrays.asList(1,2);
         List<Number> list3 = Arrays.asList(1, 1.0, 1.3f);
 
-        printNumbers(list1);
+        // printNumbers(list1); // Double is not Integer or super class of Integer
         printNumbers(list2);
         printNumbers(list3);
     }
 
     // ? <?> THIS IS UNBOUNDED WILDCARD
-    static void printNumbers(List<? extends Number> list) {
+    static void printNumbers(List<? super Integer> list) {
         list.forEach(e -> {
             System.out.println(e.getClass().getName());
             System.out.println(e);
