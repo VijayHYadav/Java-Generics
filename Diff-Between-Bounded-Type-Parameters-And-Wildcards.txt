@@ -1,0 +1,9 @@
+Bounded Type
+Syntax: <T extends Comparable<T>>
+Bounded Type can have multiple bounds <T extends Comparable<T> & A & B>
+Bounded Type parameter don't have the concept of UpperBounded, UnBounded
+
+Wildcards
+Syntax: <? extends Number>
+Wildcards only have one bound.
+Bounded Type parameter have the concept of UpperBounded, UnBounded
